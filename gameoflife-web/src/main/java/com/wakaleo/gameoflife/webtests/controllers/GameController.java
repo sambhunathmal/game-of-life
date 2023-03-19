@@ -34,7 +34,7 @@ public class GameController {
         return mav;
     }
 
-	// Clicking the "Go" button on the cell selection page loads the initial step of the game
+	// Clicking the "Go" Bbutton on the cell selection page loads the initial step of the game
     @RequestMapping("/start")
     public ModelAndView firstGeneration(@RequestParam("rows") final int rows,
                                         @RequestParam("columns") final int columns,
